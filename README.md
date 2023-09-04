@@ -9,18 +9,16 @@ class Attributes(IMNIGHT):
 	
 	@staticmethod
 	def life() -> tuple:
-		age = 24
-		
-		return age
+	    age = 24	
+	    return age
 	
 	@staticmethod
 	def coding() -> tuple:
-		langs = {
-			'expert': ['python'],
-			'intermediate': ['go', 'js'],
-			'learning': ['java']
-		}
-		specialities  = ['web/app engineering', 'fullstack']
-		environnement = ['vscode']
-		
-		return langs, specialities, environnement
+	    langs = {
+		'expert': ['python'],
+		'intermediate': ['go', 'js'],
+		'learning': ['java']
+	    }
+	    specialities  = ['web/app engineering', 'fullstack']
+	    environnement = ['vscode']
+	    return langs, specialities, environnement
