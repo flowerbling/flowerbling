@@ -12,7 +12,7 @@
 
   <!-- profile logo 个人资料徽标 -->
   <div align="center">
-    <a href="https://blog.wanheng.com/"><img src="https://img.shields.io/badge/Website-博客-blue" /></a>&emsp;
+    <a href="https://blog.wanheng.top/"><img src="https://img.shields.io/badge/Website-博客-blue" /></a>&emsp;
 	<!--
     <a href="https://twitter.com/imnight/"><img src="https://img.shields.io/badge/Twitter-推特-blue" /></a>&emsp;
     <a href="https://www.youtube.com/@imnight"><img src="https://img.shields.io/badge/YouTube-油管-c32136" /></a>&emsp;
