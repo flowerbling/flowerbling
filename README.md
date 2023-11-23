@@ -1,16 +1,10 @@
-```html
-<h1 align="center">
-  <a href="https://blog.wanheng.com/">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=console.log(%22Hayyy%2C%20Everyday!%22);祝您今天愉快!&center=true&size=27">
-  </a>
-</h1>
-```
-
-```html
 <div align="center">
-    <img  src="https://visitor-badge.glitch.me/badge?page_id=flowerbling" />
+	<h1 align="center">
+		<a href="https://blog.wanheng.com/">
+			<img src="https://readme-typing-svg.herokuapp.com/?lines=console.log(%22Happy%2C%20Everyday!%22);祝您今天愉快!&center=true&size=27">
+		</a>
+	</h1>
 </div>
-```
 
 ```python
 class Attributes(IMNIGHT):
