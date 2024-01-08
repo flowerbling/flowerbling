@@ -1,6 +1,4 @@
 name: Snake Contrib
-permissions:
-  contents: write
 
 on:
   schedule:
@@ -27,6 +25,8 @@ jobs:
             dist/snake/snake-dark.svg?palette=github-dark
 
       - name: push github-contribution-grid-snake.svg to the output branch
+        permissions:
+          contents: write
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: main
