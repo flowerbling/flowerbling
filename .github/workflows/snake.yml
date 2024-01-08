@@ -1,0 +1,25 @@
+name: Snake Contrib
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+  # allows to manually run the job at any time
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: generate github-contribution-grid-snake.svg
+        uses: aelassas/snk/svg-only@main
+        with:
+          github_user_name: flowerbling
+          outputs: |
+            dist/snake/snake.svg
+            dist/snake/snake-dark.svg?palette=github-dark
