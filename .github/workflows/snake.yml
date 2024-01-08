@@ -1,6 +1,7 @@
 name: Snake Contrib
 permissions:
   contents: write
+
 on:
   schedule:
     - cron: "0 0 * * *"
