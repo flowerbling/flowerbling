@@ -57,11 +57,11 @@ class Attributes(IMNIGHT):
 	@staticmethod
 	def coding() -> tuple:
 	    langs = {
-		'expert': ['python'],
+		'expert': ['python', 'aigc'],
 		'intermediate': ['go', 'js'],
-		'learning': ['java']
+		'learning': ['Deep Learning']
 	    }
-	    specialities  = ['web/app engineering', 'fullstack']
+	    specialities  = ['web/app engineering', 'fullstack', 'ai algorithm engineer']
 	    environnement = ['vscode']
 	    return langs, specialities, environnement
 ```
