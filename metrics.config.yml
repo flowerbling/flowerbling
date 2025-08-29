@@ -1,0 +1,6 @@
+user: flowerbling  # 你的 GitHub 用户名
+plugin_isc: yes             # 显示代码片段
+plugin_languages: yes       # 显示使用语言分布
+plugin_stars: yes           # 显示星标数
+plugin_contributors: yes    # 显示贡献者
+template: classic           # 主题模板，可选其他如 solarized
