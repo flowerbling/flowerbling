@@ -55,7 +55,7 @@ class Attributes(IMNIGHT):
 
 	@staticmethod
 	def life() -> tuple:
-	    age = 24
+	    age = 26
 	    return age
 
 	@staticmethod
